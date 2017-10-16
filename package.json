@@ -5,7 +5,8 @@
   "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack --watch"
+    "webpack": "webpack --watch",
+    "start": "webpack --watch",
   },
   "keywords": [],
   "author": "",
@@ -15,11 +16,14 @@
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "lodash": "^4.17.4",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
     "redux-devtools": "^3.4.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
     "webpack": "^3.7.1"
   }
 }
